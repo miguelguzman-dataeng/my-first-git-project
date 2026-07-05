@@ -1,0 +1,48 @@
+Lab M3.03 - Pushing Your Code to GitHub Summary
+
+1. What is SSH and why is it useful?
+
+SSH stands for Secure Shell. It is a secure way for my computer to connect to GitHub.
+Instead of typing my GitHub password every time, my computer uses an SSH key.
+The private key stays on my laptop, and the public key is added to GitHub.
+
+SSH is useful because it is secure, faster, and easier for pushing and pulling code.
+
+2. What is a remote repository?
+
+A remote repository is the online version of my local Git project.
+In this lab, my remote repository is hosted on GitHub.
+
+My local repository is on my laptop.
+My remote repository is on GitHub.
+
+3. What does git push do?
+
+git push uploads my local commits from my computer to GitHub.
+After pushing, my code becomes visible in my GitHub repository.
+
+4. My GitHub repository URL
+
+https://github.com/miguelguzman-dataeng/my-first-git-project
+
+5. Challenges I faced
+
+At first, I accidentally typed the word "Enter" while generating the SSH key instead of pressing the Enter key.
+This created the wrong key files.
+I fixed it by deleting the wrong files and generating the SSH key again correctly.
+
+I also learned the difference between HTTPS and SSH remote URLs.
+Since I set up SSH, I used the SSH remote URL:
+
+git@github.com:miguelguzman-dataeng/my-first-git-project.git
+
+6. What I learned
+
+I learned how to:
+- Create a GitHub account
+- Generate SSH keys
+- Add an SSH key to GitHub
+- Create a GitHub repository
+- Connect a local Git repo to GitHub using a remote
+- Push code to GitHub
+- Verify that my files are online
