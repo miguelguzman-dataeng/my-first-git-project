@@ -1,0 +1,36 @@
+Lab M3.01 - Creating Your First Git Repository
+
+What I learned:
+In this lab, I learned how to create a local Python project and use Git to track my files. I learned how to initialize a Git repository, create Python files, stage files, commit changes, and view the commit history.
+
+I created a project folder called my-first-git-project. Inside the folder, I created three Python files: index.py, service.py, and test.py. I committed each file separately so the Git history is clean and easy to understand.
+
+Challenges I faced:
+One challenge I faced was that Git asked me to configure my user.name and user.email before I could make my first commit. I fixed this by using the git config --global commands.
+
+Another thing I noticed was a Windows warning about LF and CRLF line endings. I learned that this is normal on Windows and not an error.
+
+I also learned that my Git branch is called master instead of main. This is okay because some Git versions use master as the default branch name.
+
+What each Git command does:
+
+git init:
+Creates a new Git repository inside the current folder. It creates a hidden .git folder where Git stores tracking information.
+
+git status:
+Shows the current state of the project. It tells me which files are untracked, staged, modified, or already committed.
+
+git add:
+Stages a file. This means the file is prepared for the next commit.
+
+git commit -m:
+Saves a snapshot of the staged files into Git history. The -m part adds a commit message that explains what changed.
+
+git log:
+Shows the full commit history, including commit ID, author, date, and message.
+
+git log --oneline:
+Shows a shorter version of the commit history, with one commit per line.
+
+Questions I still have:
+I want to learn how to connect this local Git repository to GitHub and push my code online.
