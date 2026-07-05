@@ -1,0 +1,33 @@
+notepad lab2_summary.txt
+
+Lab M3.02 - Working with Git Branches
+
+What a branch is:
+A branch in Git is a separate line of development. It allows me to work on a new feature without changing the main stable version of the project. In this lab, I created a branch called Feature-login to build the login feature separately.
+
+Why branches are useful:
+Branches are useful because they keep new work isolated. I can build, test, and commit changes on a feature branch without affecting the main branch. This is important in real projects because teams can work on different features at the same time safely.
+
+What happens when you merge:
+When you merge, Git brings the changes from one branch into another branch. In this lab, I merged Feature-login into my main branch, which is called master on my laptop. After the merge, the login.py file and the login commits became part of the master branch history.
+
+Challenges I faced:
+One challenge was that my main branch is called master instead of main. I learned that some Git versions use master as the default branch name. So when the lab said main, I used master.
+
+Another challenge was understanding why login.py disappeared when I switched back to master before the merge. I learned that this is normal because login.py only existed on the Feature-login branch until it was merged.
+
+I also saw the message "Already up to date" when merging. I learned that this means the master branch already had the Feature-login changes.
+
+Commands I used:
+git branch - shows all branches and marks the current branch with an asterisk.
+git checkout -b Feature-login - creates a new branch and switches to it.
+git status - shows the current state of the working directory.
+git add login.py - stages the login.py file for commit.
+git commit -m "message" - saves staged changes into Git history.
+git checkout master - switches back to the master branch.
+git merge Feature-login - merges the Feature-login branch into master.
+git log --oneline - shows a short version of the commit history.
+dir - shows the files in the project folder.
+
+Difference between master and Feature-login:
+Feature-login was used to build the login feature safely. Master was the main stable branch. After merging, master also contained the login.py file and the commits from Feature-login.
